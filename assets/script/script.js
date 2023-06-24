@@ -1,8 +1,8 @@
 const stringInput = document.querySelector(".input");
-const normalRect = document.querySelector(".normalText");
+const normalRect = document.querySelector(".normal-text");
 const btnSubmit = document.querySelector(".encode");
-const encoded = document.querySelector(".encodedArea");
-const encodedRect = document.querySelector(".encodedMessage");
+const encoded = document.querySelector(".encoded-area");
+const encodedRect = document.querySelector(".encoded-message");
 
 btnSubmit.addEventListener("click", function () {
   secretMessage();
