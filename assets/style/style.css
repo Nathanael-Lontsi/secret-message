@@ -43,6 +43,7 @@ button {
   border: 1px solid #c9e6ff;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 2em;
   padding: 1em;
   text-transform: uppercase;
   width: 100%;
