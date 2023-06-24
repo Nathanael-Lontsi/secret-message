@@ -18,7 +18,7 @@ function secretMessage () {
   let encrypText = ' '
 
   if (strLength < 50) {
-    alert('Input Should not be less than 50 characters')
+    alert('Text should not be less than 50 characters')
   } else {
     for (let i = 0; i < size; i++) {
       for (let j = i; j < strLength; j += size) {
