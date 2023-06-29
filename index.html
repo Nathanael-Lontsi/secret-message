@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Secret message</title>
+  </head>
+  <body>
+    <div class="container-wrapper">
+      <h1>Secret Message</h1>
+      <input type="text" class="input" placeholder="Enter text here" />
+      <p class="counter">Word counter: 0</p>
+      <div class="btn">
+        <button class="encode">encode text</button>
+      </div>
+      <div class="display">
+        <div class="normal-text">Normalized text</div>
+        <div class="encoded-area">Encoded message</div>
+        <div class="encoded-message">Encoded text in chunks</div>
+      </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+  </body>
 </html>
