@@ -30,12 +30,22 @@ div.display {
   padding: 5px;
 }
 
-input {
+.input {
   border: 1px solid #c9e6ff;
   border-radius: 5px;
   margin: auto;
   padding: auto;
   width: 75%;
+}
+
+p {
+  border: 2px solid #c9e6ff;
+  font-size: 15px;
+  height: 20px;
+  left: 10%;
+  margin: 0;
+  position: relative;
+  width: 30%;
 }
 
 button {
